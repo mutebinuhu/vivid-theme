@@ -1,0 +1,129 @@
+:root{
+    
+    --main-red:#D40C0C;
+    --main-blue:#06C2FD;
+    --main-gray:#EDEDED;
+    --main-black:#222222;
+    --main-radius:0.3rem;
+}
+html{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+
+}
+/*header section*/
+.heading{
+    color: var(--main-red);
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+}
+.site-heading{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.cart{
+    color: var(--main-blue);
+    display: flex;
+    justify-content: center;
+}
+.cart > span{
+    color: red;
+    margin-top: 15px;
+    margin-left: -12px;
+    font-size: 0.7rem;
+    background-color: var(--main-gray);
+    padding: 0.5rem;
+    border-radius: 100%;
+}
+.header-input > input{
+    background-color: var(--main-gray);
+    padding: 1rem 1rem 1rem 1rem;
+    border: none;
+    border-radius: var(--main-radius)
+    ;
+    
+
+}
+ .button{
+background-color: var(--main-red);
+border: none;
+padding: 1rem 1.5rem 1rem 1.5rem;
+border-radius: 0.3rem;
+color: white;
+
+}
+.nav-bar{
+    background-color:var(--main-black);
+    color: whitesmoke;
+    margin-top: 1rem;
+    height: 3.9rem;
+
+}
+.phone-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.phone-menu > div{
+    padding: 0.5rem;
+}
+.phone-menu > :first-child{
+    margin-top: 0.5rem;
+    font-size: 2rem;
+}
+.humberger-icon{
+    font-size: 3rem;
+    color: var(--main-gray);
+
+}
+.nav-bar > ul{
+    display: none;
+}
+.header-image{
+    background-image: url("../images/headerimg.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 20rem;
+      
+    display: flex;
+    align-items: center;
+    font-size: 1.5;
+    color: whitesmoke;
+}
+.header-image-inner-text{
+    margin-left: 1rem;
+}
+.header-image-inner-text > p{
+    padding: 1rem;
+}
+.header-image-inner-text > a{
+padding: 1rem;
+background-color: var(--main-red);
+margin-top: 2rem;
+color: var(--main-gray);
+border-radius: var(--main-radius)
+}
+
+/*header section*/
+
+   
+   /* Small devices (portrait tablets and large phones, 600px and up) 
+
+   @media only screen and (max-width: 600px) {
+    body {
+      background-color: blue;
+    }
+  }
+  */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+ 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+}
