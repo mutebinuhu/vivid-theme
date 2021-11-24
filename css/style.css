@@ -13,6 +13,10 @@ a{
     text-decoration: none;
 
 }
+.container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 /*header section*/
 .heading{
     color: var(--main-red);
@@ -42,8 +46,7 @@ a{
     background-color: var(--main-gray);
     padding: 1rem 1rem 1rem 1rem;
     border: none;
-    border-radius: var(--main-radius)
-    ;
+    border-radius: var(--main-radius);
     
 
 }
@@ -59,27 +62,36 @@ color: white;
     background-color:var(--main-black);
     color: whitesmoke;
     margin-top: 1rem;
-    height: 3.9rem;
+    padding: 0.5rem;
 
 }
-.phone-menu{
+.menu{
     display: flex;
     justify-content: space-between;
 }
-.phone-menu > div{
-    padding: 0.5rem;
-}
-.phone-menu > :first-child{
+.menu > div{
     margin-top: 0.5rem;
-    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+.menu > :first-child{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
 }
 .humberger-icon{
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: var(--main-gray);
 
+
+
 }
-.nav-bar > ul{
+/*phone nav*/
+.nav-list{
+    background-color: var(--main-black);
     display: none;
+
+}
+.nav-list > li{
+padding: 0.2rem;
 }
 .header-image{
     background-image: url("../images/headerimg.jpg");
@@ -98,18 +110,74 @@ color: white;
 }
 .header-image-inner-text > p{
     padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
 }
 .header-image-inner-text > a{
 padding: 1rem;
 background-color: var(--main-red);
-margin-top: 2rem;
 color: var(--main-gray);
-border-radius: var(--main-radius)
+border-radius: var(--main-radius);
+margin-left: 1rem;
 }
+
 
 /*header section*/
 
-   
+/*percentage off*/
+.section{
+    margin-top: 2rem;
+}
+.percentage-off{
+    background-image: url("../images/books.jpg");
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('../images/books.jpg');
+
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 10rem;
+    border-radius: var(--main-radius);
+}
+.percent-off-innertext{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    color: whitesmoke;
+    text-align: center;
+}
+.highlight{
+    color: var(--main-blue);
+}
+.free-shipping, .cash-on-delivery{
+    display: flex;
+    background-color: var(--main-red);
+    color: white;
+    border-radius: var(--main-radius);
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+.free-shipping{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.free-shipping > div > h3{
+    margin-bottom: 0.5rem;
+}
+.cash-on-delivery > div > h3{
+    margin-bottom: 0.5rem;
+}
+.free-shipping-icon, .cash-on-delivery-icon{
+    margin-right:1rem;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+
+}
+
+/*percentage off*/
+
    /* Small devices (portrait tablets and large phones, 600px and up) 
 
    @media only screen and (max-width: 600px) {
